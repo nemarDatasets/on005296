@@ -1,31 +1,79 @@
 {
   "version": "2.0",
-  "dataset_id": "on005296",
-  "source": "openneuro",
-  "source_id": "ds005296",
+  "pipeline_stage": "validated",
   "title": "Assessing sensitivity to semantic and syntactic information in deaf readers: An ERP\nstudy",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Karen Emmorey": {},
+    "Karen Emmorey": {
+      "orcid": "0000-0002-5647-0066"
+    },
     "Emily M. Akers": {},
     "Priscilla Martinez": {},
     "Katherine J. Midgley": {},
     "Phillip J. Holcomb": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005296.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005296",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005296",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuropsychologia.2025.109171",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx"
+  ],
+  "description": "This event-related potential (ERP) study investigates semantic and syntactic language processing in deaf readers by examining neural responses to grammatical violations and semantic anomalies. Participants viewed 180 sentences presented in rapid serial visual presentation (RSVP) format while EEG was recorded, with conditions including subject-verb agreement violations, semantic violations, combined violations, word-order violations, and correct control sentences. The research provides insights into the neural mechanisms underlying language comprehension in deaf populations.",
+  "methods_description": "EEG data were collected while participants viewed sentences presented in RSVP format (600ms word duration, 200ms interstimulus interval) on an LCD monitor at 60 inches viewing distance. Participants were seated in a darkened, sound-attenuated room and wore a lightweight headset. The experimental design included 180 sentences across five conditions: subject-verb agreement violations (n=30), semantic violations (n=30), combined violations (n=30), word-order violations (n=30), and correct control sentences (n=60).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "deaf readers"
+    },
+    {
+      "term": "language processing"
+    },
+    {
+      "term": "semantic violations"
+    },
+    {
+      "term": "syntactic violations"
+    },
+    {
+      "term": "reading comprehension"
+    }
+  ],
+  "source_hash": "974c8f8887e672b7fa54ddd5765f668ab9e96fc39adbee7f97c4cdde531f86ef"
 }
