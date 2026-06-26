@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Assessing sensitivity to semantic and syntactic information in deaf readers: An ERP\nstudy",
+  "description": "This event-related potential (ERP) study investigates semantic and syntactic language processing in deaf readers by examining neural responses to grammatical violations and semantic anomalies. Participants viewed 180 sentences presented in rapid serial visual presentation (RSVP) format while EEG was recorded, with conditions including subject-verb agreement violations, semantic violations, combined violations, word-order violations, and correct control sentences. The research provides insights into the neural mechanisms underlying language comprehension in deaf populations.",
+  "methods_description": "Participants were seated in a darkened, sound-attenuated room and presented with 180 sentences (white font on black background) via RSVP at 600ms per word with 200ms interstimulus intervals. EEG was recorded using a lightweight headset while participants viewed an LCD monitor at 60 inches viewing distance. Experimental conditions included 30 subject-verb agreement violations, 30 semantic violations, 30 combined violations, 30 word-order violations, and 60 correct control sentences.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,30 @@
     "Katherine J. Midgley": {},
     "Phillip J. Holcomb": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005296.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "ERP"
     },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "deaf readers"
+    },
+    {
+      "term": "semantic processing"
+    },
+    {
+      "term": "syntactic processing"
+    },
+    {
+      "term": "language comprehension"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005296",
       "identifier_type": "URL",
@@ -33,14 +53,19 @@
       "identifier": "10.1016/j.neuropsychologia.2025.109171",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005296.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "9.2 GB (127 files)"
   ],
   "formats": [
     ".fdt",
@@ -48,32 +73,8 @@
     ".md",
     ".set",
     ".tsv",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "This event-related potential (ERP) study investigates semantic and syntactic language processing in deaf readers by examining neural responses to grammatical violations and semantic anomalies. Participants viewed 180 sentences presented in rapid serial visual presentation (RSVP) format while EEG was recorded, with conditions including subject-verb agreement violations, semantic violations, combined violations, word-order violations, and correct control sentences. The research provides insights into the neural mechanisms underlying language comprehension in deaf populations.",
-  "methods_description": "EEG data were collected while participants viewed sentences presented in RSVP format (600ms word duration, 200ms interstimulus interval) on an LCD monitor at 60 inches viewing distance. Participants were seated in a darkened, sound-attenuated room and wore a lightweight headset. The experimental design included 180 sentences across five conditions: subject-verb agreement violations (n=30), semantic violations (n=30), combined violations (n=30), word-order violations (n=30), and correct control sentences (n=60).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "deaf readers"
-    },
-    {
-      "term": "language processing"
-    },
-    {
-      "term": "semantic violations"
-    },
-    {
-      "term": "syntactic violations"
-    },
-    {
-      "term": "reading comprehension"
-    }
-  ],
-  "source_hash": "974c8f8887e672b7fa54ddd5765f668ab9e96fc39adbee7f97c4cdde531f86ef"
+  "source_hash": "64279116469a45219c3d4713a693ffa841d73068a0b69d55b6d278dcdc909f0c"
 }
