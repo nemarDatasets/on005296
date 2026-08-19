@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Assessing sensitivity to semantic and syntactic information in deaf readers: An ERP\nstudy",
-  "description": "This event-related potential (ERP) study investigates semantic and syntactic language processing in deaf readers by examining neural responses to grammatical violations and semantic anomalies. Participants viewed 180 sentences presented in rapid serial visual presentation (RSVP) format while EEG was recorded, with conditions including subject-verb agreement violations, semantic violations, combined violations, word-order violations, and correct control sentences. The research provides insights into the neural mechanisms underlying language comprehension in deaf populations.",
-  "methods_description": "Participants were seated in a darkened, sound-attenuated room and presented with 180 sentences displayed on an LCD monitor at 60 inches viewing distance. Sentences were presented in RSVP format, one word at a time, for 600ms duration with 200ms inter-stimulus intervals. EEG was recorded using a lightweight headset while participants performed button-press responses. Experimental conditions included 30 subject-verb agreement violations, 30 semantic violations, 30 combined violations, 30 word-order violations, and 60 correct control sentences.",
+  "description": "This dataset contains EEG/ERP data from an experiment examining sensitivity to semantic and syntactic violations in deaf readers. Participants read sentences presented word-by-word (RSVP) that contained subject-verb agreement violations, semantic violations, combined violations, word-order violations, or correct control sentences, while EEG was recorded. The study aims to characterize how deaf readers process linguistic anomalies at the neural level.",
+  "methods_description": "Participants sat in a darkened, sound-attenuated room viewing an LCD monitor at 60 inches distance, using a keyboard for responses and a headset for verbal responses. They were presented with 180 sentences (30 subject-verb agreement violations, 30 semantic violations, 30 double violations, 30 word-order violations, 60 control sentences) in an RSVP design, one word at a time, each displayed for 600ms with a 200ms inter-stimulus interval, while EEG was recorded.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,25 +17,34 @@
   },
   "keywords": [
     {
-      "term": "ERP"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "deaf readers"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "semantic processing"
+      "term": "Deafness",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003638"
     },
     {
-      "term": "syntactic processing"
+      "term": "Reading",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
     },
     {
-      "term": "language comprehension"
+      "term": "syntax"
     },
     {
-      "term": "event-related potentials"
+      "term": "Semantics",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012660"
+    },
+    {
+      "term": "psycholinguistics"
     }
   ],
   "related_identifiers": [
@@ -45,19 +54,19 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005296",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.1016/j.neuropsychologia.2025.109171",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "10.18112/openneuro.ds005296.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005296",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
